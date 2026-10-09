@@ -12,3 +12,4 @@ C:\Users\zolta\OneDrive\Documents\CSCI1250\lab04\Lab04\Lab04\obj\Debug\net10.0\r
 C:\Users\zolta\OneDrive\Documents\CSCI1250\lab04\Lab04\Lab04\obj\Debug\net10.0\Lab04.pdb
 C:\Users\zolta\OneDrive\Documents\CSCI1250\lab04\Lab04\Lab04\obj\Debug\net10.0\Lab04.genruntimeconfig.cache
 C:\Users\zolta\OneDrive\Documents\CSCI1250\lab04\Lab04\Lab04\obj\Debug\net10.0\ref\Lab04.dll
+C:\Users\zolta\OneDrive\Documents\CSCI1250\lab04\Lab04\Lab04\obj\Debug\net10.0\Lab04.sourcelink.json

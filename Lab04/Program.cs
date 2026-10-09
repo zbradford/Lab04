@@ -16,10 +16,6 @@ double numberPizzas = Convert.ToDouble(Console.ReadLine());
 Console.Write("Price per pizza: ");
 double pizzaPrice = Convert.ToDouble(Console.ReadLine());
 
-/*Constant
-const int pizzaSlices = 8;
-*/
-
 //Calculations
 double fuel = FuelCost(260, 28, 2.89);
 double pizzaCost = numberPizzas * pizzaPrice;
@@ -31,7 +27,7 @@ Console.WriteLine("Fuel cost: " + fuel.ToString("C"));
 Console.WriteLine("Pizza cost: " + pizzaCost.ToString("C"));
 Console.WriteLine("Trip Total: " + tripTotal.ToString("C"));
 Console.WriteLine(" ");
-/*
+
 //Part Two: The Group
 Console.WriteLine("=== Part 2: The Group ===");
 
@@ -40,17 +36,22 @@ Console.WriteLine("=== Part 2: The Group ===");
 //Constant
 const int pizzaSlices = 8;
 
+//Arrays
+string[] names = { "Ada", "Grace", "Alan", "Katherine" };
+double[] hoursWorked = { 22, 15, 30, 18 };
+double[] hourlyRates = { 13.50, 16.00, 11.20, 14.80 };
+
 //Calculations
 double totalSlices = numberPizzas * pizzaSlices;
-double personSlices = totalSlices / ;
+double personSlices = totalSlices / names.Length;
+double costPerPerson = tripTotal / names.Length;
 //Print The Calculations
 Console.WriteLine(" ");
-
-Console.WriteLine("Total slices: " + totalSlices.ToString("F0"));
-Console.WriteLine("Slices per person: " + personSlices.ToString("F1"));
-Console.WriteLine("Pizza cost: " + pizzaCost.ToString("C"));
+Console.WriteLine("People going: " + names.Length);
+Console.WriteLine("Slices each: " + personSlices.ToString("F1"));
+Console.WriteLine("Cost per person: " + costPerPerson.ToString("C"));
 Console.WriteLine(" ");
-
+/*
 //Part Three: Who Works How Long
 Console.WriteLine("=== Part 3: Who Works How Long ===");
 //Questions
