@@ -1,9 +1,9 @@
 ﻿/*
 * Name: Z Bradford
 * Course: CSCI 1250, Section 201
-* Assignment: Lab 04, Trip Calculator
-* Date: September 27, 2026
-* Description: Calculates the fuel, food, and work hours behind one road trip.
+* Assignment: Lab 04, The Group Trip
+* Date: October 7, 2026
+* Description: Rebuilds the trip calculator with methods and arrays so it reports on a whole group instead of one person.
 */
 
 //Part One: The Trip
